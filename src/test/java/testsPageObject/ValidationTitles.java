@@ -22,13 +22,13 @@ public class ValidationTitles extends setting_Android  {
 		String MessageTitlePage = driver.findElement(By.id("com.androidsample.generalstore:id/toolbar_title")).getText();
 		Assert.assertEquals(MessageTitlePage, "General Store");
 		
-		
+		String MessageTitlePageGender = driver.findElement(By.xpath("(//android.widget.TextView[@text='Gender'])")).getText();
+		Assert.assertEquals(MessageTitlePageGender, "Gender");
 		
 		driver.findElement(By.xpath("//android.widget.RadioButton[@text='Male']")).click();
 		driver.findElement(By.id("android:id/text1")).click();
 		
-		String MessageTitlePageGender = driver.findElement(By.xpath("(//android.widget.TextView[@text='Gender'])")).getText();
-		Assert.assertEquals(MessageTitlePageGender, "Gender");
+
 		
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Argentina']")).click();

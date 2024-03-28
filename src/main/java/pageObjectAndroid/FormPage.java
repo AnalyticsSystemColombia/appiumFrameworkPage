@@ -37,7 +37,6 @@ public class FormPage extends actionsAndroid
 	@FindBy(id="com.androidsample.generalstore:id/btnLetsShop")
 	private WebElement shopButton;
 	
-	
 	public void setNameField(String name) 
 	{
 		nameField.sendKeys(name);

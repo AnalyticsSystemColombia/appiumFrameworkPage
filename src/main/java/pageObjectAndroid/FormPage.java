@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
@@ -35,6 +36,7 @@ public class FormPage extends actionsAndroid
 	
 	@FindBy(id="com.androidsample.generalstore:id/btnLetsShop")
 	private WebElement shopButton;
+	
 	
 	public void setNameField(String name) 
 	{

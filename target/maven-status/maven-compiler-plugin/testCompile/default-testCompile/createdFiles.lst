@@ -1,0 +1,6 @@
+testsUtils\ExtentReporterNG.class
+testsUtils\setting_Android.class
+testsUtils\setting_IOS.class
+testsUtils\Listeners.class
+testsPageObject\fillForm.class
+testsPageObject\store_Product.class

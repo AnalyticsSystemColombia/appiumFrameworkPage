@@ -12,6 +12,7 @@
   <test thread-count="5" name="Test page main">
     <classes>
       <class name="testsPageObject.fillForm"/>
+      <class name="testsPageObject.ValidationTitles"/>
     </classes>
   </test> 
 </suite> <!-- Suite -->
